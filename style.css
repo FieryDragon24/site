@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Nova;
+    src: url(STAMPPERSONALUSE.ttf);
+}
+
+@font-face {
+    font-family: nova1;
+    src: url(Fonts/BambinoBlack.ttf);
+}
+
+#sidebar {
+background-color: rgb(216, 216, 216);
+width: 30vh;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    font-family: fantasy;
+}
+
+#title {
+    width: 100vw;
+    height: 22vh;
+    background-color: rgb(205, 205, 205);
+    padding-left: 100px;
+    z-index: 9999;
+    background-image: url(WhatsApp\ Image\ 2024-11-22\ at\ 23.34.19_4e347884.jpg);
+    background-size: 100%;
+    background-blend-mode: overlay;
+}
+
+#bimg {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(28, 0, 128);
+    padding-left: 30vh;
+    display: flex;
+}
+
+#pnl1 {
+    width: 130vh; /* Use percentages to fit the screen */
+    height: 90vh;
+    background-color: rgb(231, 235, 237);
+    display: inline-block;
+    z-index: 100;
+}
+
+#pnl2 {
+    width: 50%; /* Use percentages or exact values to avoid overflow */
+    height: 90vh;
+    background-color: yellow;
+    display: inline-block;
+    z-index: 0;    
+}
+
+.container {
+    display: inline-flex;
+    width: 100vw; /* Ensure container fits the screen width */
+    height: 90vh; /* Matches the height of child elements */
+    margin: 0;
+    padding: 0;
+}
+
+#rndstuf {
+    width: 100vw;
+    height: 83.7vh;
+    background-color: rgb(209, 209, 209);
+    padding-left: 30vh;
+    display: inline-block;
+}
+
+#complicated {
+    width: 100vhh;
+    height: 100vh;
+    background-color: orange;
+    padding-left: 30vh;
+}
+
+#pcpl{
+    width: 100vhh;
+    height: 55vh;
+    background-color: aqua;
+    padding-left: 30vh;
+
+}
+
+
+#img1{
+    width: 100vhh;
+    height: 60vh;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+#txt1{
+    padding-left: 47vh ;
+    padding-top: .5vh;
+    font-family: nova1;
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight:bold;
+    
+}
+
+pre{
+    padding-left: 33vh;
+    font-family: nova1;
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+}
+
+#img2{
+    width: 19vh;
+    text-align: center;
+    padding-top: 2vh;
+    padding-right: 2vh;
+}
+
+#p1{
+    text-align: center;
+}
+
+#txt2{
+    padding-left: 18vh;
+    padding-top: 1vh;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 10vh;
+      
+}
+
+#slidebox {
+    width: 50vh; /* Adjusted to fit the dark gray box */
+    height: 40vh; /* Adjusted to maintain aspect ratio */
+    background-color: rgb(157, 157, 157);
+    margin: auto;
+    overflow: hidden;
+    position: relative; /* For button placement */
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slides {
+    display: flex; /* Align images in a row */
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+    width: calc(100% * 8); /* Account for 8 images */
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images fit nicely */
+    flex-shrink: 0; /* Prevent image shrinking */
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+#immg{
+    width: 65vh;
+    height: 65vh;
+    padding-left: 18vh;
+    padding-top: 10vh;
+    display: inline;
+
+}
+
+#hui{
+    padding-left: 100vh;
+    padding-bottom: 100vh;
+    transform: translateY(100vh);
+}
+
+#gif1{
+    display: inline-flex;
+    
+    float: right;
+    padding-right: 31vh;
+}
+
+.navbr li{
+    padding-bottom: 2vh; 
+    text-decoration: none;  
+    list-style-type: none;
+}
+
+.navbr a{
+    
+    text-decoration: none;
+    color: grey;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;  
+    
+}
+
+.navbr ul{
+    padding-top: 7vh;
+}
+
+#home::before{
+    content: "\f102";
+}
